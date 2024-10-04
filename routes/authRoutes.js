@@ -6,7 +6,7 @@ const { registerUser, loginUser, getProfile } = require('../controllers/authCont
 router.use(
   cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: ['http://localhost:3000', 'https://website-techacademy.vercel.app']
   })
 )
 
